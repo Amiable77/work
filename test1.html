@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <h2>Links Generator</h2>
+    <form>
+        <label for="firstentry">Start Range</label>
+        <input type="text" id="startrange" name="startrange" value="1">
+        
+        <label for="lastentry">End Range</label>
+        <input type="text" id="endrange" name="endrange" value="1"><br><br>
+        <button onclick="genetareTable()">displayTable</button>
+        <h3>Valid range:1-7</h3>
+    </form>
+
+    <script>
+        const pages = ["syllabus.html", "p1.html", "p2.html", "styles.html", "email.html", "system.html"];
+
+function generateTable() {
+    const tableBody = document.querySelector("page")
+  
+    
+    
+      const link = document.generateTable();
+      link.href = pages;
+      
+    };
+  
+  
+  
+  generateTable();
+  </script>
+
+</body>
+</html>
+
+
+
